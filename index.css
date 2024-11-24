@@ -9,7 +9,7 @@ body {
     background-size: cover;
 }
 p{
-    font-size: 3vw;
+    font-size: 5vw;
     color: #F5F7F8;
 }
 table{
@@ -50,7 +50,7 @@ div.MainContent{
     background-color: #171718ea;
     top: auto;
     left: 0;
-    width: 85vw;
+    width: 76vw;
     flex: 0;
     align-self: center;
     border-bottom-left-radius: 25px; 
