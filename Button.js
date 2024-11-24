@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function() {
             // List of URLs
            var websites = [
-               '/subpages/Template.html'
+               'Template.html'
                ];
                 // Generate a random index
                  var randomIndex = Math.floor(Math.random() * websites.length);
