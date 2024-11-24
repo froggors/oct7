@@ -1,16 +1,20 @@
-
+@import url(https://dl.dropboxusercontent.com/u/15746367/fonts/carmela/style.css);
+@import url(https://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
 body {
+    font-family: "Carmela", sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url("images/background.png");
+    background-image: url("images/backgroundTunnle.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+    background-size: cover;
+    background-position: center center; 
      
 }
 p{
     font-size: 5vw;
-    color: #F5F7F8;
+    color: #363011;
 }
 table{
      margin: 0 auto;
@@ -25,12 +29,12 @@ div.body{
 }
 div.Timer{
     h1.Timer {
-        font-size: 4vw;
+        font-size: 5vw;
         color: #f4ce14;
         text-align: center;
         }
     h1.TimerText{
-        font-size: 4vw;
+        font-size: 5vw;
         color: #F4CE14;
         text-align: center;
     }
@@ -40,14 +44,15 @@ div.Timer{
     width: 100%;
     height: auto;
     /* padding: 0.2% 1%; */
-    background-color: #000000;
+    background-color: #f3f0dd;
     line-height: 100px;
+    z-index: 9;
 }
 div.MainContent{
     /* display: inline; */
     text-align: center;
     overflow: hidden;
-    background-color: #171718ea;
+    background-color: #f3f0ddd7;
     top: auto;
     left: 0;
     width: 76vw;
@@ -61,11 +66,19 @@ div.MainContent{
     padding-left: 2%;
     padding-right: 2%;
 }
+img.display{
+    padding: 1%;
+    float: left;
+    position: flex;
+    border-radius: 4vw;
+    width: 25vw;
+    height: 44vw;
+}
 
 .button-32 {
-  background-color: #000000;
+  background-color: #ffb300c2;
   border-radius: 12px;
-  color: #ce0404;
+  color: #413225;
   cursor: pointer;
   font-weight: bold;
   padding: 10px 15px;
@@ -83,7 +96,7 @@ div.MainContent{
 .button-32:not(:disabled):hover,
 .button-32:not(:disabled):focus {
   outline: 0;
-  background: #f4e603;
+  background: #fcba21;
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0,0,0,.15);
 }
 

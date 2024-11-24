@@ -23,7 +23,7 @@
     }
 
     // Update the timer every second
-    setInterval(updateTimer, 1000);
+    setInterval(updateTimer, 25);
 
     // Initialize the timer display immediately
     updateTimer();
