@@ -4,7 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function() {
             // List of URLs
            var websites = [
-               'Template.html'
+               'DanielOz.html',
+               'YairHorn.html',
+               'EitanHorn.html',
+               'SaguiDekel.html'
                ];
                 // Generate a random index
                  var randomIndex = Math.floor(Math.random() * websites.length);

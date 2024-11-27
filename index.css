@@ -73,6 +73,7 @@ img.display{
     border-radius: 4vw;
     width: 25vw;
     height: 44vw;
+    overflow: hidden;
 }
 
 .button-32 {
