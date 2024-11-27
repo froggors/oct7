@@ -8,11 +8,18 @@ document.addEventListener('DOMContentLoaded', function() {
                'AYairHorn.html',
                'AEitanHorn.html',
                'AInbarHayman.html',
-               'AMaximHerkin.html',
+               'AMaximHerkin.html', // 5
                'AJudiWeinstein.html',
                'AIlanWeiss.html',
                'AOmerWenkert.html',
                'AGadiHaggai.html',
+               'AAveraMengistu.html', // 5
+               'AShlomoMantzur.html',
+               'AEliyahuMargalit.html',
+               'ATamirNimrodi.html',
+               'AOmerNeutra.html',
+               'AKeithSeigal.html', // 5
+               'AYonatanSamerano.html',
                'ASaguiDekel.html'
                ];
                 // Generate a random index
