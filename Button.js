@@ -4,7 +4,23 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function() {
             // List of URLs
            var websites = [
-               'Template.html'
+               'ADanielOz.html',
+               'AYairHorn.html',
+               'AEitanHorn.html',
+               'AInbarHayman.html',
+               'AMaximHerkin.html', // 5
+               'AJudiWeinstein.html',
+               'AIlanWeiss.html',
+               'AOmerWenkert.html',
+               'AGadiHaggai.html',
+               'AAveraMengistu.html', // 5
+               'AShlomoMantzur.html',
+               'AEliyahuMargalit.html',
+               'ATamirNimrodi.html',
+               'AOmerNeutra.html',
+               'AKeithSeigal.html', // 5
+               'AYonatanSamerano.html',
+               'ASaguiDekel.html'
                ];
                 // Generate a random index
                  var randomIndex = Math.floor(Math.random() * websites.length);
