@@ -65,7 +65,7 @@ div.MainContent{
     /* display: inline; */
     text-align: center;
     overflow: hidden;
-    background-color: #f3f0ddd7;
+    background-color: rgba(243, 240, 221, 0.85);
     top: auto;
     left: 0;
     width: 76vw;
