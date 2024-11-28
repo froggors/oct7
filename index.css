@@ -10,7 +10,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center; 
-     
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 p{
     font-size: 5vw;
@@ -27,26 +28,38 @@ div.body{
     align-items: flex-start;
     flex-direction: column;
 }
-div.Timer{
-    h1.Timer {
-        font-size: 5vw;
-        color: #f4ce14;
-        text-align: center;
-        }
-    h1.TimerText{
-        font-size: 5vw;
-        color: #F4CE14;
-        text-align: center;
-    }
-    font-family: Arial, sans-serif;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    height: auto;
-    /* padding: 0.2% 1%; */
-    background-color: #f3f0dd;
-    line-height: 100px;
-    z-index: 9;
+.Timer {
+  display: flex;
+  justify-content: space-between; /* Adjust spacing */
+  align-items: center;
+  padding: 10px;
+  background-color: #f3f0dd;
+  font-family: Arial, sans-serif;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+.Timer a {
+  text-decoration: none;
+}
+.Timer h1 {
+  font-size: 5vw;
+  color: #f4ce14;
+  margin: 0;
+  text-align: center;
+}
+
+.Timer h1.Timer {
+  font-size: 5vw;
+  color: #f4ce14;
+  text-align: center;
+}
+
+.Timer h1.TimerText {
+  font-size: 5vw;
+  color: #f4ce14;
+  text-align: center;
 }
 div.MainContent{
     /* display: inline; */
@@ -75,7 +88,14 @@ img.display{
     height: 44vw;
     overflow: hidden;
 }
-
+.logozamarin{
+  width: 11vw;
+  height: auto;
+}
+.logomoatza{
+  width: 13vw;
+  height: auto;
+}
 .button-32 {
   background-color: #ffb300c2;
   border-radius: 12px;
@@ -106,3 +126,15 @@ img.display{
   -webkit-filter: saturate(0.2) opacity(0.5);
   cursor: not-allowed;
 }
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
