@@ -3,6 +3,17 @@
 <script src="Timer.js"></script> 
 <html>
     <head>
+        
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1YSW3GESC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H1YSW3GESC');
+</script>
+
         <meta charset="UTF-8">
         <meta id="redirect" name="viewport" content="width=device-width, initial-scale=1.0">
         <title>🎗️Bring Them Home🎗️</title>
@@ -10,17 +21,25 @@
     <body>
         <div class="body">
         <div class="Timer">
-        <table>
-           <tr>
-                <td><h1 id="timerdays" class="Timer">N/A</h1><h1 class="TimerText">ימים</h1></td>
-                <td>&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                <td><h1 id="timerhours" class="Timer">N/A</h1><h1 class="TimerText">שעות</h1></td>
-                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                <td><h1 id="timerminutes" class="Timer">N/A</h1><h1 class="TimerText">דקות</h1></td>
-                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                <td><h1 id="timerseconds" class="Timer">N/A</h1><h1 class="TimerText">שניות</h1></td>
-            </tr>
-        </table>
+            <table>
+                <div class="Timer">
+                    <a href="index.html"><img src="images/ZamarinLogo.png" class="logozamarin"></a>
+                    <a href="index.html">
+                        <h1 id="timerdays" class="TimerDays">N/A</h1>
+                        <h1 class="TimerText">ימים</h1>
+                    </a>
+                    <a href="index.html"><h1 id="timerhours" class="TimerHours">N/A</h1>
+                        <h1 class="TimerText">שעות</h1>
+                    </a>
+                    <a href="index.html"><h1 id="timerminutes" class="TimerMinutes">N/A</h1>
+                        <h1 class="TimerText">דקות</h1>
+                    </a>
+                    <a href="index.html"><h1 id="timerseconds" class="TimerSeconds">N/A</h1>
+                        <h1 class="TimerText">שניות</h1>
+                    </a>
+                    <a href="index.html"><img src="images/MoatzaLogo.png" class="logomoatza"></a>
+                </div>
+            </table>
         <h1 class="TimerText"></h1>
         </div>
         <div class="MainContent">
@@ -31,3 +50,4 @@
     </body>
 </html>
 <script src="Button.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>

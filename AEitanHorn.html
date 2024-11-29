@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H1YSW3GESC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H1YSW3GESC');
+</script>
+
         <link rel="stylesheet" href="index.css">
         <script src="Timer.js"></script> 
         <meta charset="UTF-8">
@@ -10,17 +21,25 @@
     <body>
         <div class="body">
         <div class="Timer">
-        <table>
-            <tr>
-                <td><h1 id="timerdays" class="Timer">N/A</h1><h1 class="TimerText">ימים</h1></td>
-                <td>&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                <td><h1 id="timerhours" class="Timer">N/A</h1><h1 class="TimerText">שעות</h1></td>
-                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                <td><h1 id="timerminutes" class="Timer">N/A</h1><h1 class="TimerText">דקות</h1></td>
-                <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
-                <td><h1 id="timerseconds" class="Timer">N/A</h1><h1 class="TimerText">שניות</h1></td>
-            </tr>
-        </table>
+            <table>
+                <div class="Timer">
+                    <a href="index.html"><img src="images/ZamarinLogo.png" class="logozamarin"></a>
+                    <a href="index.html">
+                        <h1 id="timerdays" class="TimerDays">N/A</h1>
+                        <h1 class="TimerText">ימים</h1>
+                    </a>
+                    <a href="index.html"><h1 id="timerhours" class="TimerHours">N/A</h1>
+                        <h1 class="TimerText">שעות</h1>
+                    </a>
+                    <a href="index.html"><h1 id="timerminutes" class="TimerMinutes">N/A</h1>
+                        <h1 class="TimerText">דקות</h1>
+                    </a>
+                    <a href="index.html"><h1 id="timerseconds" class="TimerSeconds">N/A</h1>
+                        <h1 class="TimerText">שניות</h1>
+                    </a>
+                    <a href="index.html"><img src="images/MoatzaLogo.png" class="logomoatza"></a>
+                </div>
+            </table>
         <h1 class="TimerText"></h1>
         </div>
         <div class="MainContent">
@@ -34,10 +53,11 @@
             <p style="font-size: 3.5vw;" dir="rtl">איתן אוהב להופיע ולרקוד, הוא איש במות. הוא אדם מצחיק מלא כריזמה, אימו מספרת שבכל מקום אהבו אותו, ובכל מקום השאיר אחריו חותם.</p>
             <p style="font-size: 3.5vw;" dir="rtl">הוא אוהב את החיים, אוהב לעזור אוהב להיות עם חברים ומשפחה.</p>
             <p style="font-size: 3.5vw;" dir="rtl">איתן מאוד חזק בתחום הציונות, הוא היה במחנה עולים, היה שליח נוער בפרו ועבד בפנימיית הדסים.</p>
-            <a href="index.html"><button class="button-32">חזרה לדף הבית</button></a>
+            <button class="button-32" id="randomButton">מעבר</button>
             </div>
         </div>
         </div>
     </body>
 </html>
-<script src="/Button.js"></script>
+<script src="Button.js"></script>
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>

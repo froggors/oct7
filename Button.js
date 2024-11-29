@@ -20,10 +20,20 @@ document.addEventListener('DOMContentLoaded', function() {
                'AOmerNeutra.html',
                'AKeithSeigal.html', // 5
                'AYonatanSamerano.html',
+               'AIdanShtivi.html',
+               'ADanielPeretz.html',
+               'ATsachiIdan.html',
+               'AMatanZangauker.html', //5
+               'AArielCunio.html',
+               'ADavidCunio.html',
+               'AAmiramCooper.html',
+               'ABarKupershtein.html',
+               'AOfraKeidar.html', //5
                'ASaguiDekel.html'
                ];
                 // Generate a random index
-                 var randomIndex = Math.floor(Math.random() * websites.length);
+                 var myRandom = new Math.seedrandom(Date.now());
+                 var randomIndex = Math.floor(myRandom() * websites.length);
                   // Redirect to the random website
                    window.location.href = websites[randomIndex];
                 });
