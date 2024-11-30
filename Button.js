@@ -29,6 +29,10 @@ document.addEventListener('DOMContentLoaded', function() {
                'AAmiramCooper.html',
                'ABarKupershtein.html',
                'AOfraKeidar.html', //5
+               'AItzhakElgarat.html',
+               'AEdanAlexander.html',
+               'ARonenEngel.html',
+               'ARanGvili.html',
                'ASaguiDekel.html'
                ];
                 // Generate a random index
