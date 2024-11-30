@@ -1,6 +1,37 @@
 @import url(https://dl.dropboxusercontent.com/u/15746367/fonts/carmela/style.css);
 @import url(https://fonts.googleapis.com/earlyaccess/alefhebrew.css);
 @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+/* Desktop */
+@media (min-width: 768px) {
+html, body {
+   overflow-x: hidden;
+  }
+.Timer {
+   gap: 2vw !important;
+   justify-content: center !important;
+  }
+.Timer a {
+   text-decoration: none;
+  }
+.Timer h1 {
+   font-size: 2.5vw !important;
+  }
+.logozamarin{
+   width: 5.5vw !important;
+  }
+.logomoatza{
+   width: 6vw !important;
+  }
+p{
+   font-size: 2vw !important;
+  }
+img.display{
+   width: 15vw !important;
+   height: 27vw !important;
+  }
+    }
+
+/* Mobile/Standard */
 html, body {
     font-family: "Carmela", sans-serif;
     padding: 0;
@@ -11,7 +42,6 @@ html, body {
     background-size: cover;
     background-position: center center; 
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 p{
     font-size: 5vw;
@@ -50,17 +80,6 @@ div.body{
   text-align: center;
 }
 
-.Timer h1.Timer {
-  font-size: 5vw;
-  color: #f4ce14;
-  text-align: center;
-}
-
-.Timer h1.TimerText {
-  font-size: 5vw;
-  color: #f4ce14;
-  text-align: center;
-}
 div.MainContent{
     /* display: inline; */
     text-align: center;
