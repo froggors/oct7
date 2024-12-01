@@ -10,9 +10,6 @@ html, body {
    gap: 2vw !important;
    justify-content: center !important;
   }
-.Timer a {
-   text-decoration: none;
-  }
 .Timer h1 {
    font-size: 2.5vw !important;
   }
