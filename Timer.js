@@ -20,6 +20,7 @@
             `${minutes}`;
         document.getElementById('timerseconds').textContent =
             `${seconds}`;
+        document.getElementById('dayssince').textContent = days;
     }
 
     // Update the timer every second
