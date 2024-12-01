@@ -35,6 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
                'ARanGvili.html',
                'AMenyGodard.html', //5
                'AHadarGoldin.html',
+               'ATamirAdar.html',
+               'AAlonOhel.html',
                'ASaguiDekel.html'
                ];
                 // Generate a random index
