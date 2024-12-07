@@ -13,31 +13,33 @@ document.addEventListener('DOMContentLoaded', function() {
                'AIlanWeiss.html',
                'AOmerWenkert.html',
                'AGadiHaggai.html',
-               'AAveraMengistu.html', // 5
+               'AAveraMengistu.html', // 10
                'AShlomoMantzur.html',
                'AEliyahuMargalit.html',
                'ATamirNimrodi.html',
                'AOmerNeutra.html',
-               'AKeithSeigal.html', // 5
+               'AKeithSeigal.html', // 15
                'AYonatanSamerano.html',
                'AIdanShtivi.html',
                'ADanielPeretz.html',
                'ATsachiIdan.html',
-               'AMatanZangauker.html', //5
+               'AMatanZangauker.html', // 20
                'AArielCunio.html',
                'ADavidCunio.html',
                'AAmiramCooper.html',
                'ABarKupershtein.html',
-               'AOfraKeidar.html', //5
+               'AOfraKeidar.html', // 25
                'AItzhakElgarat.html',
                'AEdanAlexander.html',
                'ARonenEngel.html',
                'ARanGvili.html',
-               'AMenyGodard.html', //5
+               'AMenyGodard.html', // 30
                'AHadarGoldin.html',
                'ATamirAdar.html',
                'AAlonOhel.html',
                'AAvivAtzili.html',
+               'ARomiGonen.html', // 35
+               'ABIpinJoshi.html',
                'ASaguiDekel.html'
                ];
                 // Generate a random index
