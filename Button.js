@@ -62,6 +62,15 @@ document.addEventListener('DOMContentLoaded', function() {
                'AGuyGilboa.html',
                'AEvyatarDavid.html',
                'AEmilyTehila.html',
+               'ATalHaimi.html',
+               'AAryehZalmanowitz.html', // 60
+               'AAsafHamami.html',
+               'AItayChen.html',
+               'AArbelYehoud.html',
+               'AAlexTroufanov.html',
+               'AOhadYahalomi.html', // 65
+               'AYairYaakov.html',
+               'AEliyahCohen.html',
                'ASaguiDekel.html'
                ];
                 // Generate a random index
