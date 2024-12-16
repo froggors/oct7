@@ -4,74 +4,78 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function() {
             // List of URLs
            var websites = [
-               'ADanielOz.html',
-               'AYairHorn.html',
-               'AEitanHorn.html',
-               'AInbarHayman.html',
-               'AMaximHerkin.html', // 5
-               'AJudiWeinstein.html',
-               'AIlanWeiss.html',
-               'AOmerWenkert.html',
-               'AGadiHaggai.html',
-               'AAveraMengistu.html', // 10
-               'AShlomoMantzur.html',
-               'AEliyahuMargalit.html',
-               'ATamirNimrodi.html',
-               'AOmerNeutra.html',
-               'AKeithSeigal.html', // 15
-               'AYonatanSamerano.html',
-               'AIdanShtivi.html',
-               'ADanielPeretz.html',
-               'ATsachiIdan.html',
-               'AMatanZangauker.html', // 20
-               'AArielCunio.html',
-               'ADavidCunio.html',
-               'AAmiramCooper.html',
-               'ABarKupershtein.html',
-               'AOfraKeidar.html', // 25
-               'AItzhakElgarat.html',
-               'AEdanAlexander.html',
-               'ARonenEngel.html',
-               'ARanGvili.html',
-               'AMenyGodard.html', // 30
-               'AHadarGoldin.html',
-               'ATamirAdar.html',
-               'AAlonOhel.html',
-               'AAvivAtzili.html',
-               'ARomiGonen.html', // 35
-               'ABIpinJoshi.html',
-               'AYosefChaim.html',
-               'ASontayaOkarsery.html',
-               'AAvintarOr.html',
-               'ADrorOr.html', // 40
-               'AUrielBaruch.html',
-               'AGuyIllouz.html',
-               'AMuhammadAtarash.html',
-               'ALiriAlbag.html',
-               'AArielBibas.html', // 45
-               'AYardenBibas.html',
-               'AKfirBibas.html',
-               'AShiriBibas.html',
-               'AOhadBenAmi.html',
-               'AAgamBerger.html', // 50
-               'ASaharBaruch.html',
-               'AGaliBerman.html',
-               'AZivBerman.html',
-               'ARomBraslavski.html',
-               'ADaniellaGilboa.html', // 55
-               'AGuyGilboa.html',
-               'AEvyatarDavid.html',
-               'AEmilyTehila.html',
-               'ATalHaimi.html',
-               'AAryehZalmanowitz.html', // 60
-               'AAsafHamami.html',
-               'AItayChen.html',
-               'AArbelYehoud.html',
+               'AAgamBerger.html',
                'AAlexTroufanov.html',
-               'AOhadYahalomi.html', // 65
-               'AYairYaakov.html',
+               'AAlonOhel.html',
+               'AAmiramCooper.html',
+               'AArbelYehoud.html', // 5
+               'AArielBibas.html',
+               'AArielCunio.html',
+               'AAryehZalmanowitz.html',
+               'AAsafHamami.html', 
+               'AAveraMengistu.html', // 10
+               'AAvintarOr.html',
+               'AAvivAtzili.html',
+               'ABanwatSitao.html',
+               'ABarKupershtein.html', 
+               'ABIpinJoshi.html', // 15
+               'ADaniellaGilboa.html',
+               'ADanielOz.html',
+               'ADanielPeretz.html',
+               'ADavidCunio.html', 
+               'ADrorOr.html', // 20
+               'AEdanAlexander.html',
+               'AEitanHorn.html',
                'AEliyahCohen.html',
-               'ASaguiDekel.html'
+               'AEliyahuMargalit.html', 
+               'AEmilyTehila.html', // 25
+               'AEvyatarDavid.html',
+               'AGadiHaggai.html',
+               'AGaliBerman.html', 
+               'AGuyGilboa.html', 
+               'AGuyIllouz.html', // 30
+               'AHadarGoldin.html',
+               'AIdanShtivi.html',
+               'AIlanWeiss.html',
+               'AInbarHayman.html', 
+               'AItayChen.html', // 35
+               'AItzhakElgarat.html',
+               'AJudiWeinstein.html',
+               'AKeithSeigal.html',
+               'AKfirBibas.html',
+               'ALiriAlbag.html', // 40
+               'AMatanZangauker.html',
+               'AMaximHerkin.html',
+               'AMenyGodard.html',
+               'AMuhammadAtarash.html',
+               'ANimrodCohen.html', // 45
+               'AOfraKeidar.html', 
+               'AOhadBenAmi.html',
+               'AOhadYahalomi.html',
+               'AOmerNeutra.html',
+               'AOmerWenkert.html',  // 50
+               'ARanGvili.html',
+               'ARomBraslavski.html',
+               'ARomiGonen.html',
+               'ARonenEngel.html', 
+               'ASaguiDekel.html', // 55
+               'ASaharBaruch.html', 
+               'ASatianSwankam.html',
+               'AShiriBibas.html',
+               'AShlomoMantzur.html', 
+               'ASontayaOkarsery.html', // 60
+               'ATalHaimi.html', 
+               'ATamirNimrodi.html',
+               'ATsachiIdan.html',
+               'AUrielBaruch.html', // 65
+               'AWachatraSerion.html',
+               'AYairHorn.html',
+               'AYairYaakov.html', 
+               'AYardenBibas.html',
+               'AYonatanSamerano.html', // 70
+               'AYosefChaim.html', 
+               'AZivBerman.html',
+               'ANetfongPinta.html'
                ];
                 // Generate a random index
                  var myRandom = new Math.seedrandom(Date.now());
