@@ -120,13 +120,13 @@ img.display{
   color: #413225;
   cursor: pointer;
   font-weight: bold;
-  padding: 10px 15px;
+  padding: 7px 10px;
   text-align: center;
   transition: 200ms;
   width: auto;
   box-sizing: border-box;
   border: 0;
-  font-size: 5vw;
+  font-size: 4vw;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
