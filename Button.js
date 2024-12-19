@@ -96,7 +96,13 @@ document.addEventListener('DOMContentLoaded', function() {
                'AEliSharabi.html',
                'AYossiSharabi.html',
                'APungascTena.html',
-               'ANetfongPinta.html'
+               'AYosefZayadni.html', 
+               'AHishamSayed.html', // 95
+               'AKarinaAriev.html',
+               'AElkanaBohbot.html',
+               'AMatanAngrest.html',
+               'AHamzaZayadni.html',
+               'ANetfongPinta.html' // 100
                ];
                 // Generate a random index
                  var myRandom = new Math.seedrandom(Date.now());
