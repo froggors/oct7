@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('click', function() {
             // List of URLs
            var websites = [
-               'AAgamBerger.html',
-               'AAlexTroufanov.html',
+            //    'AAgamBerger.html',
+            //    'AAlexTroufanov.html',
                'AAlonOhel.html',
                'AAmiramCooper.html',
-               'AArbelYehoud.html', // 5
+            //    'AArbelYehoud.html', // 5
                'AArielBibas.html',
                'AArielCunio.html',
                'AAryehZalmanowitz.html',
@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
                'AAveraMengistu.html', // 10
                'AAvintarOr.html',
                'AAvivAtzili.html',
-               'ABanwatSitao.html',
+            //    'ABanwatSitao.html',
                'ABarKupershtein.html', 
                'ABIpinJoshi.html', // 15
-               'ADaniellaGilboa.html',
+            //    'ADaniellaGilboa.html',
                'ADanielOz.html',
                'ADanielPeretz.html',
                'ADavidCunio.html', 
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
                'AEitanHorn.html',
                'AEliyahCohen.html',
                'AEliyahuMargalit.html', 
-               'AEmilyTehila.html', // 25
+            //    'AEmilyTehila.html', // 25
                'AEvyatarDavid.html',
                'AGadiHaggai.html',
                'AGaliBerman.html', 
@@ -41,26 +41,26 @@ document.addEventListener('DOMContentLoaded', function() {
                'AItayChen.html', // 35
                'AItzhakElgarat.html',
                'AJudiWeinstein.html',
-               'AKeithSeigal.html',
+            //    'AKeithSeigal.html',
                'AKfirBibas.html',
-               'ALiriAlbag.html', // 40
+            //    'ALiriAlbag.html', // 40
                'AMatanZangauker.html',
                'AMaximHerkin.html',
                'AMenyGodard.html',
                'AMuhammadAtarash.html',
                'ANimrodCohen.html', // 45
                'AOfraKeidar.html', 
-               'AOhadBenAmi.html',
+            //    'AOhadBenAmi.html',
                'AOhadYahalomi.html',
                'AOmerNeutra.html',
                'AOmerWenkert.html',  // 50
                'ARanGvili.html',
                'ARomBraslavski.html',
-               'ARomiGonen.html',
+            //    'ARomiGonen.html',
                'ARonenEngel.html', 
-               'ASaguiDekel.html', // 55
+            //    'ASaguiDekel.html', // 55
                'ASaharBaruch.html', 
-               'ASatianSwankam.html',
+            //    'ASatianSwankam.html',
                'AShiriBibas.html',
                'AShlomoMantzur.html', 
                'ASontayaOkarsery.html', // 60
@@ -68,40 +68,40 @@ document.addEventListener('DOMContentLoaded', function() {
                'ATamirNimrodi.html',
                'ATsachiIdan.html',
                'AUrielBaruch.html', // 65
-               'AWachatraSerion.html',
-               'AYairHorn.html',
+            //    'AWachatraSerion.html',
+            //    'AYairHorn.html',
                'AYairYaakov.html', 
-               'AYardenBibas.html',
+            //    'AYardenBibas.html',
                'AYonatanSamerano.html', // 70
                'AYosefChaim.html', 
                'AZivBerman.html',
                'ASegevKalfon.html',
                'AOmriMiran.html',
-               'AOrLevy.html', // 75
+            //    'AOrLevy.html', // 75
                'AEitanLevi.html',
-               'ANaamaLevy.html',
+            //    'ANaamaLevy.html',
                'AShayLevinson.html',
                'AOdedLifshitz.html',
-               'AGadiMozes.html', // 80
+            //    'AGadiMozes.html', // 80
                'AJoshuaLoitu.html',
                'AEitanMor.html',
-               'AOferKalderon.html',
+            //    'AOferKalderon.html',
                'ALiorRudaeff.html',
                'ASurcoRomano.html', // 85
                'ASodistanRintlak.html',
-               'AOronShaul.html',
+            //    'AOronShaul.html',
                'ATalShoham.html',
-               'ADoronSteinbrecher.html',
+            //    'ADoronSteinbrecher.html',
                'AOmerShemTov.html', // 90
-               'AEliSharabi.html',
+            //    'AEliSharabi.html',
                'AYossiSharabi.html',
                'APungascTena.html',
-               'AYosefZayadni.html', 
+            //    'AYosefZayadni.html', 
                'AHishamSayed.html', // 95
-               'AKarinaAriev.html',
+            //    'AKarinaAriev.html',
                'AElkanaBohbot.html',
                'AMatanAngrest.html',
-               'AHamzaZayadni.html',
+            //    'AHamzaZayadni.html',
                'ANetfongPinta.html' // 100
                ];
                 // Generate a random index
