@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
                'AOmerShemTov.html', // 90
             //    'AEliSharabi.html',
                'AYossiSharabi.html',
-               'APungascTena.html',
+               // 'APungascTena.html',
             //    'AYosefZayadni.html', 
                'AHishamSayed.html', // 95
             //    'AKarinaAriev.html',
