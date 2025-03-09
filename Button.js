@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
                'AAlonOhel.html',
                'AAmiramCooper.html',
             //    'AArbelYehoud.html', // 5
-               'AArielBibas.html',
+               // 'AArielBibas.html',
                'AArielCunio.html',
                'AAryehZalmanowitz.html',
                'AAsafHamami.html', 
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
                'ADrorOr.html', // 20
                'AEdanAlexander.html',
                'AEitanHorn.html',
-               'AEliyahCohen.html',
+               // 'AEliyahCohen.html',
                'AEliyahuMargalit.html', 
             //    'AEmilyTehila.html', // 25
                'AEvyatarDavid.html',
@@ -39,10 +39,10 @@ document.addEventListener('DOMContentLoaded', function() {
                'AIlanWeiss.html',
                'AInbarHayman.html', 
                'AItayChen.html', // 35
-               'AItzhakElgarat.html',
+               // 'AItzhakElgarat.html',
                'AJudiWeinstein.html',
             //    'AKeithSeigal.html',
-               'AKfirBibas.html',
+               // 'AKfirBibas.html',
             //    'ALiriAlbag.html', // 40
                'AMatanZangauker.html',
                'AMaximHerkin.html',
@@ -51,9 +51,9 @@ document.addEventListener('DOMContentLoaded', function() {
                'ANimrodCohen.html', // 45
                'AOfraKeidar.html', 
             //    'AOhadBenAmi.html',
-               'AOhadYahalomi.html',
+               // 'AOhadYahalomi.html',
                'AOmerNeutra.html',
-               'AOmerWenkert.html',  // 50
+               // 'AOmerWenkert.html',  // 50
                'ARanGvili.html',
                'ARomBraslavski.html',
             //    'ARomiGonen.html',
@@ -61,12 +61,12 @@ document.addEventListener('DOMContentLoaded', function() {
             //    'ASaguiDekel.html', // 55
                'ASaharBaruch.html', 
             //    'ASatianSwankam.html',
-               'AShiriBibas.html',
-               'AShlomoMantzur.html', 
+               // 'AShiriBibas.html',
+               // 'AShlomoMantzur.html', 
                'ASontayaOkarsery.html', // 60
                'ATalHaimi.html', 
                'ATamirNimrodi.html',
-               'ATsachiIdan.html',
+               // 'ATsachiIdan.html',
                'AUrielBaruch.html', // 65
             //    'AWachatraSerion.html',
             //    'AYairHorn.html',
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
                'AEitanLevi.html',
             //    'ANaamaLevy.html',
                'AShayLevinson.html',
-               'AOdedLifshitz.html',
+               // 'AOdedLifshitz.html',
             //    'AGadiMozes.html', // 80
                'AJoshuaLoitu.html',
                'AEitanMor.html',
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
             //    'AOronShaul.html',
                'ATalShoham.html',
             //    'ADoronSteinbrecher.html',
-               'AOmerShemTov.html', // 90
+               // 'AOmerShemTov.html', // 90
             //    'AEliSharabi.html',
                'AYossiSharabi.html',
                // 'APungascTena.html',
